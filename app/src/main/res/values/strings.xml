@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">På farten Nav</string>
+    <string name="gps_channel">På farten Nav GPS</string>
+    <string name="gps_running">Busposition deles</string>
+</resources>
