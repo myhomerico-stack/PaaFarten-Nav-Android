@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
         web.settings.javaScriptEnabled = true
         web.settings.domStorageEnabled = true
         web.settings.databaseEnabled = true
-        web.settings.geolocationEnabled = true
+        web.settings.setGeolocationEnabled(true)
         web.settings.mediaPlaybackRequiresUserGesture = false
         web.addJavascriptInterface(NavBridge(), "PaaFartenNative")
 
